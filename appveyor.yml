@@ -6,11 +6,11 @@ image: Visual Studio 2019
 
 # Fake build script
 build_script:
-  - echo "This step would build the artifact in build-output/unsigned/combined.zip"
+  - echo "This step would build the artifact in build-output/unsigned/combined space in name.zip"
 
 # Definition of artifacts
 artifacts:
-  - path: build-output/unsigned/combined.zip
+  - path: build-output/unsigned/combined space in name.zip
 
 # Set the signing policy slug according to branch
 environment:
